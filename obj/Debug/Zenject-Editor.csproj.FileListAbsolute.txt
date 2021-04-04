@@ -1,0 +1,2 @@
+C:\Users\Knozso\Desktop\BME\Onlab\XCOM\obj\Debug\Zenject-Editor.csprojAssemblyReference.cache
+C:\Users\Knozso\Desktop\BME\Onlab\XCOM\obj\Debug\Zenject-Editor.csproj.CoreCompileInputs.cache
