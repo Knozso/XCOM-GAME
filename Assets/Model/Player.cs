@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Color = System.Drawing.Color;
+using UnityEngine;
 
 namespace Model
 {
@@ -15,23 +15,16 @@ namespace Model
         {
             Id = Guid.NewGuid();
             Units = new List<Unit>();
-            PlayerColor = Color.Red;
+            PlayerColor = Color.red;
         }
-        
-        /*
-        public void ActionHappened()
-        {
-            int remainingActions = 0;
-            foreach(Unit unit in Units)
-            {
-                remainingActions += unit.Actions;
-            }
-            if(remainingActions==0)
-            {
-                Stepper.Instance().Step();
-            }
+
+        public virtual void MoveUnitToCell(Unit unit, Cell cell) {
+            unit.MoveUnit(cell);
         }
-        */
+
+        public virtual void TakeTurn() {
+
+        }
 
         public int GetRemainingActions()
         {
@@ -47,7 +40,14 @@ namespace Model
         {
             foreach (Unit unit in Units)
             {
-                unit.Actions = 2;
+                if(unit is Shotgunner)
+                {
+                    unit.Actions = 3;
+                }
+                else
+                {
+                    unit.Actions = 2;
+                }
             }
         }
 

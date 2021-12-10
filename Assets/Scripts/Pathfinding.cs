@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Pathfinding : MonoBehaviour
 {
-    public Transform seeker, target;
+    //public Transform seeker, target;
     private static Grid Grid;
 
     void Awake()
@@ -15,7 +15,10 @@ public class Pathfinding : MonoBehaviour
 
     private void Update()
     {
-        FindPath(seeker.position, target.position);
+        if(Grid.GridCreated)
+        {
+            //FindPath(seeker.position, target.position);
+        }
     }
 
     public static List<Cell> FindPath(Vector3 startPos, Vector3 targetPos)
@@ -49,7 +52,6 @@ public class Pathfinding : MonoBehaviour
 
             foreach (KeyValuePair<Direction, Cell> entry in currentCell.GetNeighbours())
             {
-
                 Cell neighbour = entry.Value;
                 bool directionHasCover = currentCell.Cover.ContainsKey(entry.Key) ? currentCell.Cover[entry.Key] : false;
                 bool canNotWalkToNeighbour = !CanWalkToNeighbour(currentCell, entry);
@@ -78,32 +80,53 @@ public class Pathfinding : MonoBehaviour
 
     private static bool CanWalkToNeighbour(Cell currentCell, KeyValuePair<Direction, Cell> entry)
     {
-        bool canWalkToNeighbour = true;
+        if (entry.Key.Equals(Direction.NorthEast) && 
+           (entry.Value.Cover[Direction.South] || entry.Value.Cover[Direction.West] || currentCell.Cover[Direction.North] || currentCell.Cover[Direction.East]))
+        {
+            return false;
+        }
+        if (entry.Key.Equals(Direction.NorthWest) &&
+           (entry.Value.Cover[Direction.South] || entry.Value.Cover[Direction.East] || currentCell.Cover[Direction.North] || currentCell.Cover[Direction.West]))
+        {
+            return false;
+        }
+        if (entry.Key.Equals(Direction.SouthEast) &&
+           (entry.Value.Cover[Direction.North] || entry.Value.Cover[Direction.West] || currentCell.Cover[Direction.South] || currentCell.Cover[Direction.East]))
+        {
+            return false;
+        }
+        if (entry.Key.Equals(Direction.SouthWest) &&
+           (entry.Value.Cover[Direction.North] || entry.Value.Cover[Direction.East] || currentCell.Cover[Direction.South] || currentCell.Cover[Direction.West]))
+        {
+            return false;
+        }
+        /*
         if ((entry.Key.Equals(Direction.NorthEast) && ((entry.Value.Cover[Direction.South] && currentCell.Cover[Direction.North]) || (entry.Value.Cover[Direction.West] && currentCell.Cover[Direction.East])))
            || (entry.Key.Equals(Direction.NorthEast) && (currentCell.Cover[Direction.North] && currentCell.Cover[Direction.East]))
            || (entry.Key.Equals(Direction.NorthEast) && (entry.Value.Cover[Direction.South] && entry.Value.Cover[Direction.West])))
         {
-            canWalkToNeighbour = false;
+            return false;
         }
         if ((entry.Key.Equals(Direction.NorthWest) && ((entry.Value.Cover[Direction.South] && currentCell.Cover[Direction.North]) || (entry.Value.Cover[Direction.East] && currentCell.Cover[Direction.West])))
             || (entry.Key.Equals(Direction.NorthWest) && (currentCell.Cover[Direction.North] && currentCell.Cover[Direction.West]))
             || (entry.Key.Equals(Direction.NorthWest) && (entry.Value.Cover[Direction.South] && entry.Value.Cover[Direction.East])))
         {
-            canWalkToNeighbour = false;
+            return false;
         }
         if ((entry.Key.Equals(Direction.SouthEast) && ((entry.Value.Cover[Direction.North] && currentCell.Cover[Direction.South]) || (entry.Value.Cover[Direction.West] && currentCell.Cover[Direction.East])))
             || (entry.Key.Equals(Direction.SouthEast) && (currentCell.Cover[Direction.South] && currentCell.Cover[Direction.East]))
             || (entry.Key.Equals(Direction.SouthEast) && (entry.Value.Cover[Direction.North] && entry.Value.Cover[Direction.West])))
         {
-            canWalkToNeighbour = false;
+            return false;
         }
         if ((entry.Key.Equals(Direction.SouthWest) && ((entry.Value.Cover[Direction.North] && currentCell.Cover[Direction.South]) || (entry.Value.Cover[Direction.East] && currentCell.Cover[Direction.West])))
             || (entry.Key.Equals(Direction.SouthWest) && (currentCell.Cover[Direction.South] && currentCell.Cover[Direction.West]))
             || (entry.Key.Equals(Direction.SouthWest) && (entry.Value.Cover[Direction.North] && entry.Value.Cover[Direction.East])))
         {
-            canWalkToNeighbour = false;
+            return false;
         }
-        return canWalkToNeighbour;
+        */
+        return true;
     }
 
     public static List<Cell> Retracepath(Cell startCell, Cell endCell)
@@ -156,29 +179,20 @@ public class Pathfinding : MonoBehaviour
         return distance;
     }
 
-    public static List<Cell> GetCellsInRange(List<Cell> cells, Cell cell, int range)
+    public static List<Cell> GetCellsInRange(Cell cell, int range)
     {
-        List<Cell> cellsInRange = new List<Cell>();
-        cellsInRange.Add(cell);
-        foreach (KeyValuePair<Direction, Cell> entry in cell.Neighbours)
+        List<Cell> cellList = new List<Cell>();
+        for (int x = 0; x < Grid.gridSizeX; x++)
         {
-            bool directionHasCover = cell.Cover.ContainsKey(entry.Key) ? cell.Cover[entry.Key] : false;
-            if (directionHasCover || !CanWalkToNeighbour(cell, entry) || !entry.Value.Walkable || !cells.Contains(entry.Value))
+            for (int y = 0; y < Grid.gridSizeY; y++)
             {
-                continue;
-            }
-            int newRange = range;
-            newRange -= GetDistance(cell, entry.Value);
-            if (newRange >= 0)
-            {
-                foreach (Cell c in GetCellsInRange(cells, entry.Value, newRange))
+                if((Grid.grid[x, y].WorldPosition-cell.WorldPosition).magnitude<31)
                 {
-                    if (!cellsInRange.Contains(c))
-                        cellsInRange.Add(c);
+                    cellList.Add(Grid.grid[x, y]);
                 }
             }
         }
-        return cellsInRange;
+        return cellList;
     }
 
     public static List<Cell> GetCellsInSquareRange(Cell cell, int range)

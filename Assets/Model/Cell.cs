@@ -7,23 +7,32 @@ namespace Model
 {
     public class Cell
     {
-        public event Action<System.Drawing.Color> ColorChanged;
-        public event Action<Unit> UnitAdded;
+        public event Action<UnityEngine.Color> ColorChanged;
+        public event Action<Unit, String> UnitAdded;
 
         public Vector3 WorldPosition { get; set; }
         private int gridX;
         private int gridY;
 
+        public bool InRange { get; set; }
+
         public bool Walkable { get; set; }
 
+        public bool Occupied { get; set; }
+
         public bool Traceable { get; set; }
+
+        public bool HasElement { get; set; }
+
+        public List<GameObject> MapElements;
+
         public Dictionary<Direction, Cell> Neighbours { get; set; }
 
         public Cell Parent;
 
         public Dictionary<Direction, bool> Cover;
 
-        public List<Unit> Units { get; set; }
+        //public List<Unit> Units { get; set; }
 
         public int gCost;
         public int hCost;
@@ -35,12 +44,18 @@ namespace Model
             }
         }
 
+        public float Value;
+
         public Cell()
         {
-            Units = new List<Unit>();
+            //Units = new List<Unit>();
             Neighbours = new Dictionary<Direction, Cell>();
+            MapElements = new List<GameObject>();
             Walkable = true;
+            Occupied = false;
             Traceable = false;
+            HasElement = false;
+            Value = 0;
             Cover = new Dictionary<Direction, bool>();
             Cover.Add(Direction.North, false);
             Cover.Add(Direction.East, false);
@@ -63,7 +78,7 @@ namespace Model
         }
         public float GetWorldY()
         {
-            return WorldPosition.y;
+            return WorldPosition.z;
         }
 
         public void SetNeigbour(Direction dir, Cell otherCell)
@@ -109,13 +124,18 @@ namespace Model
             gridY = y;
         }
 
-        public void AddUnit(Unit unit)
+        public bool HasCoverFrom(Direction dir)
         {
-            Units.Add(unit);
-            UnitAdded?.Invoke(unit);
+            return (Neighbours.ContainsKey(dir) && !Neighbours[dir].Walkable) || (Cover.ContainsKey(dir) && Cover[dir]);
         }
 
-        public void ChangeColor(System.Drawing.Color color)
+        public void AddUnit(Unit unit, String prefabString)
+        {
+            //Units.Add(unit);
+            UnitAdded?.Invoke(unit, prefabString);
+        }
+
+        public void ChangeColor(UnityEngine.Color color)
         {
             ColorChanged?.Invoke(color);
         }

@@ -13,8 +13,1418 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/Model/AiPlayer.cs
+    - Assets/Model/Cell.cs
+    - Assets/Model/Grenadier.cs
+    - Assets/Model/Player.cs
+    - Assets/Model/Shotgunner.cs
+    - Assets/Model/Shotgunner.cs.meta
+    - Assets/Model/Sniper.cs
+    - Assets/Model/Sniper.cs.meta
+    - Assets/Model/Stepper.cs
+    - Assets/Model/Unit.cs
+    - Assets/Networking/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/AnimatorController.controller
+    - Assets/Resources/Animations/Movement.meta
+    - Assets/Resources/Animations/Movement/1H@Run01 - Forward [RM].fbx
+    - Assets/Resources/Animations/Movement/1H@Run01 - Forward [RM].fbx.meta
+    - Assets/Resources/Animations/Movement/1H@Run01 - Forward.fbx
+    - Assets/Resources/Animations/Movement/1H@Run01 - Forward.fbx.meta
+    - Assets/Resources/Animations/Movement/1H@Sprint01 - Forward [RM].fbx
+    - Assets/Resources/Animations/Movement/1H@Sprint01 - Forward [RM].fbx.meta
+    - Assets/Resources/Animations/Movement/1H@Sprint01 - Forward.fbx
+    - Assets/Resources/Animations/Movement/1H@Sprint01 - Forward.fbx.meta
+    - Assets/Resources/Animations/RightHand@Attack01.fbx
+    - Assets/Resources/Animations/RightHand@Attack01.fbx.meta
+    - Assets/Resources/Animations/Shield.meta
+    - Assets/Resources/Animations/Shield/Shield@Attack01.fbx
+    - Assets/Resources/Animations/Shield/Shield@Attack01.fbx.meta
+    - Assets/Resources/ImportedAssets.meta
+    - Assets/Resources/ImportedAssets/AWP.meta
+    - Assets/Resources/ImportedAssets/AWP/Models.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP.FBX
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP.FBX.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP.mat
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP.mat.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP_Albedo.tif
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP_Albedo.tif.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP_Occlusion.tif
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP_Occlusion.tif.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP_Specular.tif
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/AWP_Specular.tif.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/Materials.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/Materials/AWP.mat
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/Materials/AWP.mat.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/Materials/Material #2.mat
+    - Assets/Resources/ImportedAssets/AWP/Models/AWP/Materials/Material #2.mat.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/Tile.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/Tile/Tile.mat
+    - Assets/Resources/ImportedAssets/AWP/Models/Tile/Tile.mat.meta
+    - Assets/Resources/ImportedAssets/AWP/Models/Tile/Tile.png
+    - Assets/Resources/ImportedAssets/AWP/Models/Tile/Tile.png.meta
+    - Assets/Resources/ImportedAssets/AWP/Prefabs.meta
+    - Assets/Resources/ImportedAssets/AWP/Prefabs/Tile.prefab
+    - Assets/Resources/ImportedAssets/AWP/Prefabs/Tile.prefab.meta
+    - Assets/Resources/ImportedAssets/AWP/Scenes.meta
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP.meta
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP.unity
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP.unity.meta
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP/LightingData.asset
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP/LightingData.asset.meta
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP/ReflectionProbe-0.exr
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWP/ReflectionProbe-0.exr.meta
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWPSettings.lighting
+    - Assets/Resources/ImportedAssets/AWP/Scenes/AWPSettings.lighting.meta
+    - Assets/Resources/ImportedAssets/AWP/Scope.meta
+    - Assets/Resources/ImportedAssets/AWP/Scope/Scope.png
+    - Assets/Resources/ImportedAssets/AWP/Scope/Scope.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom_bloody.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom_bloody.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top_bloody.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top_bloody.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Mesh.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Mesh/SK_Bio_Mutant.fbx
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Mesh/SK_Bio_Mutant.fbx.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1.prefab
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1.prefab.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1_bloody.prefab
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1_bloody.prefab.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_2_bloody.prefab
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_2_bloody.prefab.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Showcase.unity
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Showcase.unity.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_emissive.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_emissive.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_emissive.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_emissive.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/M_BM_Skin_2_Bottom_bloody.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/M_BM_Skin_2_Bottom_bloody.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/M_BM_Skin_2_Top_bloody.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/M_BM_Skin_2_Top_bloody.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Bottom_Bloody_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Bottom_Bloody_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Bottom_Bloody_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Bottom_Bloody_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Bottom_Bloody_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Bottom_Bloody_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Top_Bloody_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Top_Bloody_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Top_Bloody_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Top_Bloody_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Top_Bloody_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/Bloody/T_Biomech_Mutant_Skin_2_Top_Bloody_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Bottom.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Bottom.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Top.mat
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Top.mat.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_emissive.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_emissive.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_n.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_RGBA.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_RGBA.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_a.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_a.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_emissive.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_emissive.png.meta
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_n.png
+    - Assets/Resources/ImportedAssets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_n.png.meta
+    - Assets/Resources/ImportedAssets/Character.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/FreeCharacter_01.FBX
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/FreeCharacter_01.FBX.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Free_Character_01.rar
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Free_Character_01.rar.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Materials.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Materials/Body_01.mat
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Materials/Body_01.mat.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures/Body_Cube_01.cubemap
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures/Body_Cube_01.cubemap.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures/Body_Diffuse_01.psd
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures/Body_Diffuse_01.psd.meta
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures/Body_Normal_01.psd
+    - Assets/Resources/ImportedAssets/Character/FreeCharacter/Textures/Body_Normal_01.psd.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberBody_Emissive.tga
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberBody_Emissive.tga.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier.fbx
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier.fbx.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier_Diff.tga
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier_Diff.tga.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier_Normal.tga
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier_Normal.tga.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier_Spec.tga
+    - Assets/Resources/ImportedAssets/CyberSoldier/CyberSoldier_Spec.tga.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/Materials.meta
+    - Assets/Resources/ImportedAssets/CyberSoldier/Materials/CyberMat.mat
+    - Assets/Resources/ImportedAssets/CyberSoldier/Materials/CyberMat.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/DebrisParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/DebrisParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Dust.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Dust.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Embers.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Embers.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/EnergyExplosion.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/EnergyExplosion.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/EnergyShockwave.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/EnergyShockwave.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Explosion.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Explosion.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/ExplosionDistortion.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/ExplosionDistortion.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/FireExplosion.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/FireExplosion.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Flame03.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Flame03.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Flame04.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Flame04.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame01.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame01.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame02.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/LargeFlame02.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Lightning.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/Lightning.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/LightningTrail.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/LightningTrail.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame01.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame01.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame02.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame02.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame03.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/MediumFlame03.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/PlasmaExplosion.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/PlasmaExplosion.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/PlasmaFire.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/PlasmaFire.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/SandParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/SandParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/SmokeDark.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/SmokeDark.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/TinyFlame.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/TinyFlame.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/BigExplosion.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/BigExplosion.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/EnergyExplosion.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/EnergyExplosion.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/FireBall.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/FireBall.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/FlameStream.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/FlameStream.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/FlameThrower.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/FlameThrower.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/LargeFlames.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/LargeFlames.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/SmallExplosion.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/SmallExplosion.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/TinyExplosion.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/TinyExplosion.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/TinyFlames.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/TinyFlames.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/WildFire.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Prefabs/WildFire.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Debris.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Debris.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/EnergyEffect.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/EnergyEffect.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Explosion.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Explosion.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/ExplosionEmission.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/ExplosionEmission.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/FireBallEmission.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/FireBallEmission.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/FireExplosion.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/FireExplosion.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Fireball.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Fireball.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Flame02.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Flame02.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Flame03.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Flame03.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Flame04.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Flame04.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/LargeFlame01.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/LargeFlame01.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/LargeFlame02.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/LargeFlame02.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Lightning.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Lightning.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/LightningTrail.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/LightningTrail.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame01.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame01.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame01Emission.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame01Emission.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame03.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame03.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MedumFlame02.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/MedumFlame02.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Ramp02.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Ramp02.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Ramp03.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/Ramp03.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/RoundSoftParticle.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/RoundSoftParticle.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SmokePuff01.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SmokePuff01.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SmokePuff02.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SmokePuff02.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SmokePuffNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SmokePuffNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SphereNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/SphereNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/TinyFlame.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/TinyFlame.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/TinyStones.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/TinyStones.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/ramp01.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/ramp01.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/shockwave.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Fire & Explosion Effects/Textures/shockwave.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopPoolParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopPoolParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopSplashParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopSplashParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopSplatParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopSplatParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopStreamParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Materials/GoopStreamParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs/GoopSpray.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs/GoopSpray.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs/GoopSprayEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs/GoopSprayEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs/GoopStreamEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Prefabs/GoopStreamEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopDropAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopDropAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopDropNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopDropNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopPoolAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopPoolAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopPoolNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopPoolNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopSprayAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopSprayAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopSprayNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopSprayNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopStreamAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/GoopStreamAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/SplatAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Goop Effects/Textures/SplatAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/EarthCrack.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/EarthCrack.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/Embers.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/Embers.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/Fireball.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/Fireball.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/Ice.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/Ice.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/IceMist.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/IceMist.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/IceTrail.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/IceTrail.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/RockDust.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/RockDust.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/RockSpike.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Materials/RockSpike.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/IceLance.FBX
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/IceLance.FBX.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/IceShard.FBX
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/IceShard.FBX.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/RockDebris.FBX
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/RockDebris.FBX.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/RockSpike.FBX
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Models/RockSpike.FBX.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Prefabs/EarthShatter.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Prefabs/EarthShatter.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Prefabs/IceLance.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Prefabs/IceLance.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Shaders.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Shaders/Ice.shader
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Shaders/Ice.shader.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/DustPuffSmall.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/DustPuffSmall.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/EarthCrackAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/EarthCrackAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/EarthCrackEmissive.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/EarthCrackEmissive.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/EarthCrackNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/EarthCrackNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/FireBallEmission.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/FireBallEmission.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Fireball.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Fireball.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/IceCurvature.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/IceCurvature.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/IceNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/IceNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Ramp01.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Ramp01.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Ramp02.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Ramp02.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Ramp03.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/Ramp03.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RockNormal.tga
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RockNormal.tga.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RocksAlbedo.tga
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RocksAlbedo.tga.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RocksAlbedoEmissive.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RocksAlbedoEmissive.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RocksSpecGloss.tga
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/RocksSpecGloss.tga.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/SmokePuff02.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Magic Effects/Textures/SmokePuff02.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Animations.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Animations/@EllenIdle.fbx
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Animations/@EllenIdle.fbx.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Animations/Ellen.controller
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Animations/Ellen.controller.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/CandleFlame.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/CandleFlame.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Dissolve.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Dissolve.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/DissolveChunks.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/DissolveChunks.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/DustMote.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/DustMote.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Embers.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Embers.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/FireFly.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/FireFly.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Respawn.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Respawn.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/SandSwirls.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/SandSwirls.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/SmokePuff.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/SmokePuff.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Sparks.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/Sparks.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/SpawnTrail.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/SpawnTrail.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/candle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Materials/candle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/Candle.fbx
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/Candle.fbx.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/Ellen.fbx
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/Ellen.fbx.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/FireFly.fbx
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/FireFly.fbx.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/Flakes.fbx
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Models/Flakes.fbx.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Candles.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Candles.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/ElectricalSparks.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/ElectricalSparks.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Readme_Dissolve_Respawn_.txt
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Readme_Dissolve_Respawn_.txt.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Respawn.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/Respawn.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/SandSwirlsEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/SandSwirlsEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Scripts.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders/Dissolve.shader
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders/Dissolve.shader.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders/FireFly.shader
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders/FireFly.shader.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders/Respawn.shader
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Shaders/Respawn.shader.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/CandleFlame.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/CandleFlame.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/Clouds.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/Clouds.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/DissolveChunks.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/DissolveChunks.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/DustMote.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/DustMote.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/DustPuffSmall.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/DustPuffSmall.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/FireFlyAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/FireFlyAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/FireFlyEmission.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/FireFlyEmission.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/FireFlyWings.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/FireFlyWings.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/Ramp01.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/Ramp01.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/SmokePuff.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/SmokePuff.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/SmokeySteam.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/SmokeySteam.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/SparkParticle.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/SparkParticle.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/noise.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Misc Effects/Textures/noise.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Dust.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Dust.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Embers.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Embers.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Flame01.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Flame01.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/GroundFog.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/GroundFog.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/HeatDistortion.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/HeatDistortion.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/RockDebris.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/RockDebris.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SandParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SandParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Smoke02.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Smoke02.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeLight.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeLight.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam01.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam01.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam02.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam02.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam03.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/SmokeySteam03.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Twinkle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/Twinkle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/wispySmoke.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Materials/wispySmoke.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Models.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Models/RockDebris.FBX
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Models/RockDebris.FBX.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/DustStorm.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/DustStorm.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/Heat
+      Distortion.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/Heat
+      Distortion.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/PoisonGas.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/PoisonGas.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/PressurisedSteam.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/PressurisedSteam.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/RisingSteam.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/RisingSteam.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/RocketTrail.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/RocketTrail.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/SmokeEffect.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/SmokeEffect.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/Steam.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Prefabs/Steam.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/Flame01.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/Flame01.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop02.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop02.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff04.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff04.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff04Normal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff04Normal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/TinyStones.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/TinyStones.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/Twinkle.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/Twinkle.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/WispySmokeNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/WispySmokeNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/smokeysteam.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/smokeysteam.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/wispySmoke.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Smoke & Steam Effects/Textures/wispySmoke.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/Splash.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/Splash.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/Splash02.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/Splash02.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/Water.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/Water.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterDropBig.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterDropBig.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterDropSmall.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterDropSmall.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterFog.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterFog.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterRipple.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Materials/WaterRipple.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Models.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Models/DropSplash.fbx
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Models/DropSplash.fbx.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs/BigSplash.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs/BigSplash.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs/Shower.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs/Shower.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs/WaterLeak.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Prefabs/WaterLeak.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/RippleAlbedo.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/RippleAlbedo.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/RippleNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/RippleNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/SphereAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/SphereAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash01.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash01.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash01Normal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash01Normal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash04Albedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash04Albedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash04Normal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/Splash04Normal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/SplatAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/SplatAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/SplatNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/SplatNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/WaterNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Water Effects/Textures/WaterNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalWood.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletDecalWood.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/FleshSurface.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/FleshSurface.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/GoopMist.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/GoopMist.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/GoopSplat2.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/GoopSplat2.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/GoopStreak.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/GoopStreak.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/MetalSparks.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/MetalSparks.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/MetalSurface.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/MetalSurface.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/MuzzleFlash01.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/MuzzleFlash01.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/RockDebris.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/RockDebris.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/SandSurface.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/SandSurface.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/StoneSurface.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/StoneSurface.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/TinyStonesParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/TinyStonesParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/WaterStreamParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/WaterStreamParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/WoodSplintersParticle.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/WoodSplintersParticle.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/WoodSurface.mat
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Materials/WoodSurface.mat.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/FleshImpacts.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/FleshImpacts.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/MetalImpacts.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/MetalImpacts.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/MuzzleFlash01.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/MuzzleFlash01.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/SandImpacts.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/SandImpacts.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/StoneImpacts.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/StoneImpacts.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/WoodImpacts.prefab
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Prefabs/WoodImpacts.prefab.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleMetalThroughAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleMetalThroughAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleMetalThroughNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleMetalThroughNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleRockAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleRockAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleRockHeight.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleRockHeight.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleRockNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/BulletHoleRockNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/DustPuffSmallParticleSheet.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/DustPuffSmallParticleSheet.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshBulletHoleAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshBulletHoleAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshBulletHoleHeight.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshBulletHoleHeight.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshBulletHoleNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshBulletHoleNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/FleshNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopSprayAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopSprayAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopSprayNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopSprayNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopStreakAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopStreakAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopStreakNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/GoopStreakNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/MuzzleFlashFront.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/MuzzleFlashFront.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/SandDecalAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/SandDecalAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/SandDecalNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/SandDecalNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/SparkParticle.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/SparkParticle.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/StoneAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/StoneAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/StoneNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/StoneNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/StreamNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/StreamNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/TinyStones.png
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/TinyStones.png.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/TinyStonesNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/TinyStonesNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleDepth.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleDepth.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleNormal.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodNormals.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodNormals.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodOcclusion.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/WoodOcclusion.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/woodSplintersAlbedo.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/woodSplintersAlbedo.tif.meta
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/woodSplintersNormal.tif
+    - Assets/Resources/ImportedAssets/EffectExamples/Weapon Effects/Textures/woodSplintersNormal.tif.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials/Grass.mat
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials/Grass.mat.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials/Log_01.mat
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials/Log_01.mat.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials/Soil.mat
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Materials/Soil.mat.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Log01.FBX
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Log01.FBX.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Log01_Base.FBX
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Log01_Base.FBX.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials/Log01_DIF.mat
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials/Log01_DIF.mat.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials/ScanBase_Grass_DIF.mat
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials/ScanBase_Grass_DIF.mat.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials/Soil_A.mat
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Models/Log01/Materials/Soil_A.mat.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Prefabs.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Prefabs/Log01.prefab
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Prefabs/Log01.prefab.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Prefabs/SceneObjects.prefab
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Prefabs/SceneObjects.prefab.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/CharacterScaleOnly_PropertyofUnity_NotPartofPack.tga
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/CharacterScaleOnly_PropertyofUnity_NotPartofPack.tga.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Grass_DIF.tga
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Grass_DIF.tga.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Grass_NRM.png
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Grass_NRM.png.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Log01_AO.png
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Log01_AO.png.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Log01_DIF.png
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Log01_DIF.png.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Log01_NRM.png
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Log01_NRM.png.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Soil_DIF.png
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Soil_DIF.png.meta
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Soil_NRM.png
+    - Assets/Resources/ImportedAssets/Fallen Tree Barrier - FREE/Textures/Soil_NRM.png.meta
+    - Assets/Resources/ImportedAssets/Mixamo.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_block_idle.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_block_idle.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_disarm_over_shoulder.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_disarm_over_shoulder.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_disarm_underarm.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_disarm_underarm.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_idle.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_idle.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_idle_looking_ver_1.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_idle_looking_ver_1.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_idle_looking_ver_2.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_idle_looking_ver_2.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_jump.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_jump.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_360_high.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_360_high.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_360_low.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_360_low.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_backhand.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_backhand.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_downward.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_downward.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_horizontal.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_horizontal.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_kick_ver_1.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_kick_ver_1.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_kick_ver_2.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_attack_kick_ver_2.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_combo_attack_ver_1.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_combo_attack_ver_1.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_combo_attack_ver_2.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_combo_attack_ver_2.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_combo_attack_ver_3.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_combo_attack_ver_3.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_run_jump_attack.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_melee_run_jump_attack.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_react_large_from_left.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_react_large_from_left.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_run_back.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_run_back.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_run_back_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_run_back_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_run_forward.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_run_forward.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_taunt_battlecry.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_taunt_battlecry.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_taunt_chest_thump.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_taunt_chest_thump.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_turn_left_90.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_turn_left_90.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_turn_right_90.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_turn_right_90.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_back.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_back.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_back_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_back_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_forward.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_forward.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_forward_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_forward_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_left.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_left.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_left_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_left_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_right.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_right.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_right_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/standing_walk_right_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_equip_over_shoulder.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_equip_over_shoulder.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_equip_underarm.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_equip_underarm.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_idle_looking_ver_1.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_idle_looking_ver_1.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_idle_looking_ver_2.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_idle_looking_ver_2.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_jump.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_jump.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_jump_running.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_jump_running.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_back.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_back.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_back_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_back_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_forward.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_forward.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_forward_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_run_forward_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_turn_left_90.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_turn_left_90.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_turn_right_90.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_turn_right_90.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_back.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_back.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_back_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_back_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_forward.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_forward.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_forward_inPlace.anim
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Animations/unarmed_walk_forward_inPlace.anim.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Alpha@Alpha.fbx
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Alpha@Alpha.fbx.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Beta@Beta.fbx
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Beta@Beta.fbx.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Alpha_Body_MAT.mat
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Alpha_Body_MAT.mat.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Alpha_Joints_MAT.mat
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Alpha_Joints_MAT.mat.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Beta_Body_MAT.mat
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Beta_Body_MAT.mat.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Beta_Joints_MAT.mat
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Characters/Materials/Beta_Joints_MAT.mat.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/CameraScroll.cs
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/CameraScroll.cs.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/Demo.unity
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/Demo.unity.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_1.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_1.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_10.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_10.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_11.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_11.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_12.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_12.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_13.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_13.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_14.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_14.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_15.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_15.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_16.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_16.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_17.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_17.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_18.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_18.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_19.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_19.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_2.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_2.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_20.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_20.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_21.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_21.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_22.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_22.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_23.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_23.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_24.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_24.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_25.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_25.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_26.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_26.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_27.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_27.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_28.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_28.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_29.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_29.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_3.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_3.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_30.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_30.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_31.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_31.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_32.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_32.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_33.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_33.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_34.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_34.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_35.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_35.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_36.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_36.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_37.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_37.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_38.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_38.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_39.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_39.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_4.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_4.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_40.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_40.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_41.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_41.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_42.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_42.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_43.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_43.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_44.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_44.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_45.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_45.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_46.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_46.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_47.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_47.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_48.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_48.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_49.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_49.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_5.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_5.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_50.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_50.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_51.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_51.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_52.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_52.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_53.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_53.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_54.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_54.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_55.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_55.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_6.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_6.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_7.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_7.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_8.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_8.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_9.controller
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoAnimatorControllers/Alpha@Alpha_9.controller.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoSettings.lighting
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/DemoSettings.lighting.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/Floor.mat
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/Floor.mat.meta
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/Tile.jpg
+    - Assets/Resources/ImportedAssets/Mixamo/Melee Axe Pack/Demo/Tile.jpg.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_Death.fbx
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_Death.fbx.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_R_Idle.fbx
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_R_Idle.fbx.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_R_Run.fbx
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_R_Run.fbx.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_Shoot.fbx
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/AI_Stand_Shoot.fbx.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/role_animator_controller.controller
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Anim/role_animator_controller.controller.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role.unity
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role.unity.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Body.tga
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Body.tga.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Hair.tga
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Hair.tga.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials/Body.mat
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials/Body.mat.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials/Hair.mat
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials/Hair.mat.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials/head.mat
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Materials/head.mat.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Role_T.fbx
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/Role_T.fbx.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/head.tga
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Role/head.tga.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/RoleSettings.lighting
+    - Assets/Resources/ImportedAssets/RealisticCharacter/RoleSettings.lighting.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Shader.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Shader/Rim_Diffuse.shader
+    - Assets/Resources/ImportedAssets/RealisticCharacter/Shader/Rim_Diffuse.shader.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/ground.mat
+    - Assets/Resources/ImportedAssets/RealisticCharacter/ground.mat.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Materials.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Materials/Weapon.mat
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Materials/Weapon.mat.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Weapon.fbx
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Weapon.fbx.meta
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Weapon.tga
+    - Assets/Resources/ImportedAssets/RealisticCharacter/weapon/Weapon.tga.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Animations.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Floor.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Floor.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Rifle.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Rifle.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Black.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Black.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Blue.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Blue.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Camo1.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Camo1.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Camo2.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Camo2.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Green.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Green.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Red.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_Red.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_White.mat
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Materials/Robot_Soldier_White.mat.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Meshes.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Meshes/Floor.FBX
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Meshes/Floor.FBX.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Meshes/Robot_Soldier.fbx
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Meshes/Robot_Soldier.fbx.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Floor.prefab
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Floor.prefab.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Black.prefab
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Black.prefab.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Camo1.prefab
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Camo1.prefab.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Camo2.prefab
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Camo2.prefab.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Green.prefab
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_Green.prefab.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_White.prefab
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Prefabs/Robot_Soldier_White.prefab.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/OfflineScene.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/OfflineScene.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/OnlineScene.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/OnlineScene.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Blue.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Blue.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Blue_Black.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Blue_Black.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Blue_White.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Blue_White.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Camo1.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Camo1.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Camo2.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Camo2.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Green.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Green.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Red.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robot_Soldier_Red.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robots_Scene.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/Robots_Scene.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/RoomScene.unity
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Scenes/RoomScene.unity.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_BaseColor.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_BaseColor.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Metallic.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Metallic.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Normal.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Normal.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Occlusion.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Occlusion.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Roughness.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Rifle_Roughness.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColor.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColor.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorB.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorB.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorCamo1.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorCamo1.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorCamo2.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorCamo2.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorG.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorG.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorR.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorR.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorW.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_BaseColorW.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Emissive.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Emissive.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Height.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Height.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Metallic.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Metallic.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Normal.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Normal.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Occlusion.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Occlusion.png.meta
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Roughness.png
+    - Assets/Resources/ImportedAssets/Robot_Soldier/Textures/Robot_Soldier_Roughness.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/AvatarMask.mask
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/AvatarMask.mask.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Die.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Die.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_Ducking_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_Ducking_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_Shoot_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_Shoot_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_guard_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_guard_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_gunMiddle_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Idle_gunMiddle_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Jump.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Jump.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Reload.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Reload.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Run_guard_AR.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Run_guard_AR.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Run_gunMiddle_AR.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Run_gunMiddle_AR.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Shoot_AutoShot_AR.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Shoot_AutoShot_AR.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Shoot_BurstShot_AR.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Shoot_BurstShot_AR.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Shoot_SingleShot_AR.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/Shoot_SingleShot_AR.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkBack_Shoot_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkBack_Shoot_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkFront_Shoot_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkFront_Shoot_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkLeft_Shoot_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkLeft_Shoot_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkRight_Shoot_ar.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animations/WalkRight_Shoot_ar.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animators.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animators/SciFiWarrior.controller
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Animators/SciFiWarrior.controller.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/HP.mat
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/HP.mat.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/PBR.mat
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/PBR.mat.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/PBR_ENEMY.mat
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/PBR_ENEMY.mat.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/Polyart.mat
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/Polyart.mat.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/Skybox_Mat.mat
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/Skybox_Mat.mat.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/Stage.mat
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Materials/Stage.mat.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh/PBR_HP_Mesh.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh/PBR_HP_Mesh.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh/Polyart_Mesh.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh/Polyart_Mesh.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh/Stage.fbx
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Mesh/Stage.fbx.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs/PBRCharacter.prefab
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs/PBRCharacter.prefab.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs/PolyartCharacter.prefab
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Prefabs/PolyartCharacter.prefab.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Scene.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Scene/DemoScene01.unity
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Scene/DemoScene01.unity.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Scene/DemoScene01Settings.lighting
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Scene/DemoScene01Settings.lighting.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/HP_Albedo.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/HP_Albedo.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/HP_Albedo_Enemy.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/HP_Albedo_Enemy.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Albedo.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Albedo.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Albedo_Enemy.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Albedo_Enemy.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_AO.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_AO.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_EM.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_EM.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_MS.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_MS.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_NM.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PBR_Free_NM.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/Polyart.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/Polyart.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PolyartEmission.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/PolyartEmission.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/Polyart_Enemy.png
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/Textures/Polyart_Enemy.png.meta
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/promotion.jpg
+    - Assets/Resources/ImportedAssets/SciFiWarriorPBRHPPolyart/promotion.jpg.meta
+    - Assets/Resources/ImportedAssets/shotgun.meta
+    - Assets/Resources/ImportedAssets/shotgun/MARMO3.obj
+    - Assets/Resources/ImportedAssets/shotgun/MARMO3.obj.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/5_d.tga
+    - Assets/Resources/ImportedAssets/shotgun/Materials/5_d.tga.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/5_n.tga
+    - Assets/Resources/ImportedAssets/shotgun/Materials/5_n.tga.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/5_s.tga
+    - Assets/Resources/ImportedAssets/shotgun/Materials/5_s.tga.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/6_d.tga
+    - Assets/Resources/ImportedAssets/shotgun/Materials/6_d.tga.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/7_d.tga
+    - Assets/Resources/ImportedAssets/shotgun/Materials/7_d.tga.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/8.tga
+    - Assets/Resources/ImportedAssets/shotgun/Materials/8.tga.meta
+    - Assets/Resources/ImportedAssets/shotgun/Materials/MARMO3-defaultMat.mat
+    - Assets/Resources/ImportedAssets/shotgun/Materials/MARMO3-defaultMat.mat.meta
+    - Assets/Resources/Prefabs/AWP.prefab
+    - Assets/Resources/Prefabs/AWP.prefab.meta
+    - Assets/Resources/Prefabs/EnemyUnitSinglePlayer.prefab
+    - Assets/Resources/Prefabs/EnemyUnitSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/Grenade.prefab
+    - Assets/Resources/Prefabs/Grenade.prefab.meta
+    - Assets/Resources/Prefabs/GrenadeSinglePlayer.prefab
+    - Assets/Resources/Prefabs/GrenadeSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/GrenadierEnemyUnit.prefab
+    - Assets/Resources/Prefabs/GrenadierEnemyUnit.prefab.meta
+    - Assets/Resources/Prefabs/GrenadierEnemyUnitSinglePlayer.prefab
+    - Assets/Resources/Prefabs/GrenadierEnemyUnitSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/GrenadierUnitSinglePlayer.prefab
+    - Assets/Resources/Prefabs/GrenadierUnitSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/Grid.prefab
+    - Assets/Resources/Prefabs/MARMO3.prefab
+    - Assets/Resources/Prefabs/MARMO3.prefab.meta
+    - Assets/Resources/Prefabs/MapElements/FallenTree.prefab
+    - Assets/Resources/Prefabs/PlayerUnitSinglePlayer.prefab
+    - Assets/Resources/Prefabs/PlayerUnitSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/ShootCanvas.prefab
+    - Assets/Resources/Prefabs/ShotgunUnit.prefab
+    - Assets/Resources/Prefabs/ShotgunUnit.prefab.meta
+    - Assets/Resources/Prefabs/ShotgunUnitSinglePlayer.prefab
+    - Assets/Resources/Prefabs/ShotgunUnitSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/SniperUnit.prefab
+    - Assets/Resources/Prefabs/SniperUnit.prefab.meta
+    - Assets/Resources/Prefabs/SniperUnitSinglePlayer.prefab
+    - Assets/Resources/Prefabs/SniperUnitSinglePlayer.prefab.meta
+    - Assets/Resources/Prefabs/TileSinglePlayer.prefab
+    - Assets/Resources/Prefabs/TileSinglePlayer.prefab.meta
+    - Assets/Resources/Sprites/Sniper Scope (Border).png
+    - Assets/Resources/Sprites/Sniper Scope (Border).png.meta
+    - Assets/Scenes/MenuScene.unity
+    - Assets/Scenes/MultiplayerScene.unity
+    - Assets/Scenes/SingleplayerScene.unity
+    - Assets/Scenes/SingleplayerScene.unity.meta
+    - Assets/Scripts/GrenadeMovingSinglePlayerScript.cs
+    - Assets/Scripts/GrenadeMovingSinglePlayerScript.cs.meta
+    - Assets/Scripts/MapElementGridSize.cs
+    - Assets/Scripts/Multiplayer/AimScript.cs
+    - Assets/Scripts/Multiplayer/CellView.cs
+    - Assets/Scripts/Multiplayer/Grid.cs
+    - Assets/Scripts/Multiplayer/ShootScript.cs
+    - Assets/Scripts/Multiplayer/SpecialScript.cs
+    - Assets/Scripts/Multiplayer/SpecialScript.cs.meta
+    - Assets/Scripts/Multiplayer/TileSelector.cs
+    - Assets/Scripts/Multiplayer/UnitView.cs
+    - Assets/Scripts/PlayerVsAiScript.cs
+    - Assets/Scripts/PlayerVsPlayerScript.cs
+    - Assets/Scripts/Singleplayer.meta
+    - Assets/Scripts/Singleplayer/AimScriptSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/AimScriptSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/CameraControllerSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/CameraControllerSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/CancelScriptSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/CancelScriptSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/CellViewSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/CellViewSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/GrenadeMovingScript.cs
+    - Assets/Scripts/Singleplayer/GrenadeMovingScript.cs.meta
+    - Assets/Scripts/Singleplayer/GridSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/GridSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/NextTargetScriptSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/NextTargetScriptSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/NextTurnSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/NextTurnSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/PathfindingSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/PathfindingSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/PrevTargetScriptSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/PrevTargetScriptSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/ShootScriptSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/ShootScriptSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/SpecialSinglePlayerScript.cs
+    - Assets/Scripts/Singleplayer/SpecialSinglePlayerScript.cs.meta
+    - Assets/Scripts/Singleplayer/TileSelectorSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/TileSelectorSinglePlayer.cs.meta
+    - Assets/Scripts/Singleplayer/UnitViewSinglePlayer.cs
+    - Assets/Scripts/Singleplayer/UnitViewSinglePlayer.cs.meta
+    - Assets/Scripts/StartOnlineScript.cs
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
